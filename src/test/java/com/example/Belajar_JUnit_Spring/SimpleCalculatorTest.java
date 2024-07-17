@@ -11,4 +11,10 @@ class SimpleCalculatorTest {
         assertEquals(4,calculator.add(2,2));
     }
 
+    @Test
+    void threePlusSevenShouldTen(){
+        var calculator = new SimpleCalculator();
+        assertEquals(10, calculator.add(3,7));
+    }
+
 }
